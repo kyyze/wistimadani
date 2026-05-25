@@ -176,7 +176,7 @@
         const music = document.getElementById("bgMusic");
         window.addEventListener("load", () => {
 
-    music.volume = 1;
+    music.volume = 0.9;
 
     const playMusic = () => {
 
@@ -185,7 +185,7 @@
             console.log("Music started");
         })
         .catch(() => {
-            console.log("Autoplay blocked");
+            console.log("Autoplay ");
         });
 
     };
